@@ -1,0 +1,52 @@
+![Alt text](/path/to/img.jpg)
+![Alt text](/path/to/img.jpg "Optional title")
+
+・リンクと同じように参照表記も可能
+![Alt text][id]
+
+[git]: url/to/image  "Optional title attribute"
+data:image/png;base64,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
+# second Test
+## 設定方法
+- 導入方法
+- 環境設定
+- 基本記述
+
+*強調*
+**強い強調**
+`$hoge = 1`
+> "引用本文引用本文引用本文引用本文
+引用本文引用本文引用本文引用本文引用本文引用本文。"
+
+> 引用本文引用本文引用本文引用本文
+> 引用本文引用本文引用本文引用本文引用本文引用本文。
+> > 入れ子入れ子
+> > 入れ子入れ子
+> 引用本文引用本文引用本文引用本文
+> * リスト
+> 引用本文引用本文引用本文引用本文
+> 1. 番号リスト
+> 引用本文引用本文引用本文引用本文
+> $hgoe = 1 コードを書いてみたり
+> 引用本文引用本文引用本文引用本文
+
+<http://example.com>
+<example@example.com>
+
+[リンクのテキスト][linkref]
+
+[yahoo](http://yahoo.jp/)
+
+|見出し1|見出し2|
+| ---- | ---- |
+|あああ|いいい|
+|ううう|えええ|
+
+|  TH  |  TH  |
+| ---- | ---- |
+|  TD  |  セル内で<br>改行  |
+
+| TH 左寄せ | TH 中央寄せ | TH 右寄せ |
+| :--- | :---: | ---: |
+| TD | TD | TD |
+| TD | TD | TD |
